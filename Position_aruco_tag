@@ -1,0 +1,14 @@
+Position_aruco_tag
+
+ros2 service call /set_aruco_pose ros_gz_interfaces/srv/SetEntityPose '{"entity": {"name": "aruco_tag", "type": 2}, "pose": {"position": {"x": -.2, "y": -1, "z": 0.5}, "orientation": {"x": 1.0, "y": -1.0, "z": 0.0, "w":
+ 1.0}}}'
+
+ros2 service call /set_aruco_pose ros_gz_interfaces/srv/SetEntityPose '{"entity": {"name": "aruco_tag", "type": 2}, "pose": {"position": {"x": -.2, "y": -.9, "z": 0.7}, "orientation": {"x": 1.0, "y": -1.0, "z": 0.0, "w":
+ 1.0}}}'
+
+
+ros2 service call /set_aruco_pose ros_gz_interfaces/srv/SetEntityPose '{"entity": {"name": "aruco_tag", "type": 2}, "pose": {"position": {"x": -.2, "y": -.8, "z": 0.5}, "orientation": {"x": 1.0, "y": -1.0, "z": 0.0, "w":
+ 1.0}}}'
+
+ros2 service call /set_aruco_pose ros_gz_interfaces/srv/SetEntityPose '{"entity": {"name": "aruco_tag", "type": 2}, "pose": {"position": {"x": -.4, "y": -.7, "z": 0.5}, "orientation": {"x": 1.0, "y": -1.0, "z": 0.0, "w":
+ 1.0}}}'
