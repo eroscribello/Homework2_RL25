@@ -6,7 +6,6 @@ sudo apt update -y
 sudo apt-get install ros-humble-ros-gazebo-bridge -y
 sudo apt-get install ros-humble-ros-ign-gazebo -y
 sudo apt-get install ros-humble-joint-state-publisher ros-humble-joint-state-publisher-gui -y
-sudo apt-get install locate nano gedit gh -y
 sudo apt-get install ros-humble-aruco-ros -y
 ```
 Then run both these commands in the same terminal:
